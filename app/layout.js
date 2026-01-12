@@ -2,6 +2,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/header";
+import { ConvexClientProvider } from "./ConvexClientProvider";
+import { ClerkProvider } from "@clerk/nextjs";
+import { dark } from "@clerk/themes";
 
 export const metadata = {
   title: "Spott",
@@ -18,6 +21,9 @@ export default function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         >
+           <ClerkProvider appearance={{theme: dark,}}>
+          <ConvexClientProvider>
+            
           <Header/>
           <main className="relative min-h-screen container mx-auto pt-40 md:pt-32">
             <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
@@ -30,7 +36,10 @@ export default function RootLayout({ children }) {
               <div className="flex items-center gap-6 text-sm text-gray-400">Made with ❤️ by Suhani </div>
             </footer>
           </main>
+          </ConvexClientProvider>
+          </ClerkProvider>
         </ThemeProvider>
+        
       </body>
     </html>
   );
