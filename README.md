@@ -1,4 +1,4 @@
-# 🎉 Spott
+ Spott
 
 ### AI-Powered Event Organizer Platform
 
