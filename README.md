@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎉 Spott
 
-## Getting Started
+### AI-Powered Event Organizer Platform
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Frontend-Next.js-black)
+![Convex](https://img.shields.io/badge/Backend-Convex-orange)
+![shadcn/ui](https://img.shields.io/badge/UI-shadcn/ui-000000)
+![Clerk](https://img.shields.io/badge/Auth-Clerk-blue)
+![Payments](https://img.shields.io/badge/Payments-Clerk-success)
+![AI](https://img.shields.io/badge/AI-Gemini-purple)
 
+---
+
+## 🌍 Overview
+
+**Spott** is a modern AI-driven event management platform that helps users discover, create, and manage events effortlessly.  
+It combines real-time backend services, secure authentication, seamless payments, and AI-assisted event creation — all wrapped in a clean and scalable UI.
+
+Whether you're an attendee or an organizer, Spott simplifies the entire event experience.
+
+---
+
+## 🚀 Features
+
+### 🔐 Authentication & Payments
+- Secure user authentication using **Clerk**
+- Integrated payments via **Clerk Payments**
+- Free and Pro subscription plans
+
+---
+
+### 📅 Event Discovery
+- Browse all available events
+- Filter events by category, date, and type
+- View complete event details before booking
+
+---
+
+### 🎫 Ticket Booking & QR Access
+- Purchase tickets for events
+- Unique **QR code generated** for each ticket
+- QR code used for event entry verification
+
+---
+
+### ✨ AI-Powered Event Creation
+- Event creation assisted by **Gemini AI**
+- AI generates:
+  - Event titles
+  - Descriptions
+  - Headings and content ideas
+- Helps organizers create professional events faster
+
+---
+
+### 🆓 Free vs 💎 Pro Plan
+- **Free users** can create **1 event**
+- **Pro users** can create unlimited events
+- Upgrade required to unlock more event creation
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|--------|------------|
+| Frontend | Next.js |
+| Backend | Convex |
+| UI | shadcn/ui |
+| Authentication | Clerk |
+| Payments | Clerk Payments |
+| AI | Gemini AI |
+| Ticketing | QR Code System |
+
+---
+
+## 📂 Project Structure
+
+spott/
+├── app/ # Next.js App Router
+├── components/ # Reusable UI components
+├── convex/ # Convex backend functions
+├── lib/ # Utilities and helpers
+├── public/ # Static assets
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
 ```bash
+git clone https://github.com/your-username/spott.git
+Install dependencies:
+
+bash
+Copy code
+npm install
+Configure environment variables:
+
+Clerk API keys
+
+Convex deployment credentials
+
+Gemini AI API key
+
+Run the development server:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
