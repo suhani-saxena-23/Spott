@@ -76,9 +76,8 @@ Whether you're an attendee or an organizer, Spott simplifies the entire event ex
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
-![Home Page](public/Screenshot 2026-01-17 170214.png)
----
+![Home Page](public/home.png)
+
 
 ## ⚙️ Installation & Setup
 
