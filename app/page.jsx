@@ -28,7 +28,7 @@ export default function Home() {
           </p>
 
           <Link href="/explore">
-              <Button size="xl" className={"rounded-full"}>
+              <Button size="xl" className={"rounded-full"} suppressHydrationWarning>
                 Get Started
               </Button>
             </Link>
