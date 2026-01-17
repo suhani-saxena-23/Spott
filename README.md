@@ -74,19 +74,10 @@ Whether you're an attendee or an organizer, Spott simplifies the entire event ex
 
 ---
 
-## 📂 Project Structure
+## 📸 Screenshots
 
-spott/
-├── app/ # Next.js App Router
-├── components/ # Reusable UI components
-├── convex/ # Convex backend functions
-├── lib/ # Utilities and helpers
-├── public/ # Static assets
-└── README.md
-
-yaml
-Copy code
-
+### 🏠 Home Page
+![Home Page](public/Screenshot 2026-01-17 170214.png)
 ---
 
 ## ⚙️ Installation & Setup
